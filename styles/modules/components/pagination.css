@@ -1,0 +1,33 @@
+.pagination{
+
+}
+.pagination .item{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #dddddd;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.pagination .item-checked{
+    width: 35px;
+    height: 35px;
+}
+
+.pagination .prev{
+    height: 35px;
+    line-height: 35px;
+    padding:0 10px;
+    border: 1px solid #dddddd;
+    display: inline-block;
+}
+
+.pagination .next{
+    height: 35px;
+    padding: 0 10px;
+}
+.pagination li{
+    float: left;
+    margin:0 5px;
+}

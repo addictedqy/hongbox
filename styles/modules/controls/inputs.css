@@ -1,0 +1,29 @@
+.ipt{
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.ipt:focus {
+  outline: none;
+  border: 1px solid #6699CC;
+}
+
+.ipt-small{
+    padding:7px;
+}
+.ipt-zhong{
+    padding:13px 10px;
+}
+.ipt-big{
+    padding:15px;
+}
+.ipt-disabled-small{
+    padding:7px;
+    
+}
+.ipt-disabled-zhong{
+    padding:13px 10px;
+}
+.ipt-disabled-big{
+    padding:15px;
+}

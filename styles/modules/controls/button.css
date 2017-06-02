@@ -1,0 +1,39 @@
+.btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.btn:focus{
+    outline: none;
+}
+.btn-kobe {
+    border: 1px solid #F33E33;
+    background-color: #F33E33;
+    color: #ffffff;
+}
+
+.btn-kobe:hover {
+    background-color: #E22323;
+}
+
+.btn-default {
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.btn-disabled {
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    color: #aaa;
+}
+
+.btn-shadow {
+    box-shadow: 0 1px 2px #ddd;
+    border:#fff;
+    background-color: #fff;
+    color: #FF7800;
+}
+
+.btn-shadow:hover {
+    box-shadow: 0 2px 10px #FF7800;
+    border: 0;
+}
