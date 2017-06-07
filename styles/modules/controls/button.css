@@ -1,6 +1,6 @@
 .btn {
     padding: 10px 20px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .btn:focus{
     outline: none;

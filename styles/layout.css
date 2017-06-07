@@ -1,7 +1,11 @@
 .container {
     width: 1140px;
     margin: 0 auto;
-    padding: 0 10px;
+}
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
 }
 .responsive-img {
     max-width: 100%;

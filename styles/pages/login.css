@@ -1,0 +1,66 @@
+
+.main{
+    background-image: url("../../images/chicken.png");
+}
+.main .cont-row{
+    position: relative;
+    height: 600px;
+}
+
+.main .login-box{
+    width: 386px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    position: absolute;
+    right:0;
+    top: 120px;
+}
+.main .cont{
+    padding: 25px;
+
+}
+.main .cont-box{
+    margin-top: 15px;
+}
+
+.main .title{
+    color: #888;
+    padding: 13px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5;
+}
+.main .cont-i{
+    float: left;
+    height: 44px;
+    line-height: 50px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+}
+.main .cont-i i{
+    font-size: 24px;
+    color: #d5d5d5;
+}
+.main .login-box .ipt-zhong{
+    width: 85%;
+    margin-left: -1px;
+}
+.main .cont-box .btn{
+    color: #ffffff;
+    background-color: red;
+    border: 1px solid;
+    width: 100%;
+}
+.main .cont-box a{
+    color: red;
+}
+.main .cont-box a:hover{
+    text-decoration:underline;
+    color: red;
+}
+.footed{
+    text-align: center;
+    color: #999;
+    margin: 50px 0;
+}

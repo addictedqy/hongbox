@@ -1,0 +1,11 @@
+
+.header .hongxb{
+    display: inline-block;
+}
+.header .header-nav{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 30px;
+    color: #666;
+    font-weight: bold;
+}
