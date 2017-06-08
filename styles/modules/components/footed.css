@@ -1,0 +1,48 @@
+.footed{
+    background-color: #333;
+    margin-top: 50px;
+}
+.footed .fot-cont{
+    padding-top: 40px;
+}
+.footed .fot-mar{
+    margin-bottom: 35px;
+}
+.footed li{
+    text-align: center;
+    display: inline-block;
+    padding:0 25px;
+}
+.footed li:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+.footed li a{
+    color: #999;
+}
+.footed .fot-first{
+    color: #fff;
+    font-weight: bold;
+}
+.footed span{
+    color: #fff;
+    padding: 0 25px;
+}
+.footed .fot-sp{
+    font-size: 18px;
+    font-weight: bold;
+}
+.footed .fot-sa{
+    color: red;
+}
+.footed .fot-fed{
+    padding-bottom: 35px;
+}
+.footed .hoomxb{
+    text-align: center;
+    color: #999;
+    padding-bottom: 35px;
+}
+.footed li a:hover{
+    color: red;
+}

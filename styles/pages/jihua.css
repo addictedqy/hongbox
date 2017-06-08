@@ -1,84 +1,4 @@
 
-.header .head-top {
-    height: 30px;
-    color: #999;
-}
-
-.header .head-left {
-    display: inline-block;
-    margin-top: 5px;
-}
-
-.header .head-left small {
-    margin-right: 15px;
-}
-
-.header .head-left span {
-    display: inline-block;
-}
-
-.header .head-left i {
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-}
-
-.header .head-left .ifa {
-    background-color: #999999;
-    border-radius: 50%;
-    display: inline-block;
-    color: #ffffff;
-    margin: 0 15px;
-}
-
-.header .head-right .ul-rt {
-    height: 30px;
-    line-height: 30px;
-}
-
-.header .head-right .ul-rt li {
-    display: inline-block;
-    font-size: 12px;
-    padding: 0 10px;
-}
-
-.header .head-right .ul-rt li a {
-    color: #999;
-    cursor: pointer;
-}
-
-.header .head-right .ul-rt li a:hover {
-    color: red;
-}
-
-.header .head-right .ul-rt .li-phone {
-    font-size: 28px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-
-.header .head-bom {
-    height: 70px;
-    line-height: 70px;
-    padding: 0 15px;
-}
-
-.header .bom-left img {
-    vertical-align: middle;
-}
-
-.header .bom-right ul {
-    line-height: 70px;
-    height: 70px;
-}
-
-.header .bom-right li {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 55px;
-    font-size: 20px;
-}
 
 .main {
     background: url("../../images/mpcp-banner.jpg") no-repeat center 0;
@@ -172,7 +92,7 @@
 
 .main .sy-left {
     padding-left: 40px;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .main .sy-left li {
@@ -263,51 +183,3 @@
     color: #aaa;
 }
 
-.footed{
-    background-color: #333;
-    margin-top: 50px;
-}
-.footed .fot-cont{
-    padding-top: 40px;
-}
-.footed .fot-mar{
-    margin-bottom: 35px;
-}
-.footed li{
-    text-align: center;
-    display: inline-block;
-    padding:0 25px;
-}
-.footed li:first-child{
-    font-size: 18px;
-    font-weight: bold;
-}
-.footed li a{
-    color: #999;
-}
-.footed .fot-first{
-    color: #fff;
-    font-weight: bold;
-}
-.footed span{
-    color: #fff;
-    padding: 0 25px;
-}
-.footed .fot-sp{
-    font-size: 18px;
-    font-weight: bold;
-}
-.footed .fot-sa{
-    color: red;
-}
-.footed .fot-fed{
-    padding-bottom: 35px;
-}
-.footed .hoomxb{
-    text-align: center;
-    color: #999;
-    padding-bottom: 35px;
-}
-.footed li a:hover{
-    color: red;
-}
