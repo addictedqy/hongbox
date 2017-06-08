@@ -1,68 +1,313 @@
 
-.header .head-top{
+.header .head-top {
     height: 30px;
     color: #999;
 }
 
-.header .head-left{
+.header .head-left {
     display: inline-block;
     margin-top: 5px;
 }
-.header .head-left small{
+
+.header .head-left small {
     margin-right: 15px;
 }
-.header .head-left span{
+
+.header .head-left span {
     display: inline-block;
 }
-.header .head-left i{
+
+.header .head-left i {
     text-align: center;
     width: 20px;
     height: 20px;
     line-height: 20px;
 }
-.header .head-left .ifa{
+
+.header .head-left .ifa {
     background-color: #999999;
     border-radius: 50%;
-    display:inline-block;
+    display: inline-block;
     color: #ffffff;
-    margin:0 15px;
+    margin: 0 15px;
 }
-.header .head-right .ul-rt{
+
+.header .head-right .ul-rt {
     height: 30px;
     line-height: 30px;
 }
-.header .head-right .ul-rt li{
+
+.header .head-right .ul-rt li {
     display: inline-block;
     font-size: 12px;
-    padding:0 10px;
+    padding: 0 10px;
 }
-.header .head-right .ul-rt li a{
+
+.header .head-right .ul-rt li a {
     color: #999;
     cursor: pointer;
 }
-.header .head-right .ul-rt li a:hover{
+
+.header .head-right .ul-rt li a:hover {
     color: red;
 }
-.header .head-right .ul-rt .li-phone{
+
+.header .head-right .ul-rt .li-phone {
     font-size: 28px;
     vertical-align: middle;
     margin-right: 10px;
 }
-.header .head-bom{
+
+.header .head-bom {
     height: 70px;
     line-height: 70px;
-    padding:0 15px;
+    padding: 0 15px;
 }
-.header .bom-left img{
+
+.header .bom-left img {
     vertical-align: middle;
 }
-.header .bom-right ul{
+
+.header .bom-right ul {
     line-height: 70px;
     height: 70px;
 }
-.header .bom-right li{
+
+.header .bom-right li {
     display: inline-block;
     vertical-align: middle;
-    margin-left:50px;
+    margin-left: 55px;
     font-size: 20px;
+}
+
+.main {
+    background: url("../../images/mpcp-banner.jpg") no-repeat center 0;
+}
+
+.main .banner {
+    height: 509px;
+    position: relative;
+    text-align: center;
+}
+
+.main .main-top {
+    text-align: center;
+    padding-top: 45px;
+
+}
+
+.main .main-top h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.main .main-top > p {
+    color: #c4c3c8;
+}
+
+.main .main-list {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 40px;
+
+}
+
+.main .main-list .ul-list {
+    width: 320px;
+    height: 375px;
+    float: left;
+    margin-right: 32px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    box-shadow: none;
+}
+
+.main .main-list .ul-list:hover {
+    top: -5px;
+}
+
+.main .main-list .list-li {
+    background-color: #ff6079;
+    height: 100%;
+}
+
+.main .main-list h3 {
+    line-height: 120px;
+}
+
+.main .main-list p {
+    margin: 15px 0;
+}
+
+.main .main-list a {
+    display: inline-block;
+    width: 240px;
+    height: 45px;
+    color: #ef2929;
+    line-height: 45px;
+    border-radius: 3px;
+    margin-top: 35px;
+    font-size: 16px;
+    background-color: #fdd1d3;
+}
+
+.main .income {
+    padding-top: 50px;
+}
+
+.main .sy-top {
+    height: 52px;
+    line-height: 52px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #eee;
+}
+
+.main .sy-left {
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+.main .sy-left li {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 44px;
+}
+
+.main .sy-left li span {
+    height: 5px;
+    width: 318px;
+    background-color: #d5d5d5;
+    display: inline-block;
+    position: relative;
+    top: 14px;
+}
+
+.main .sy-left li .sy-qd {
+    position: absolute;
+    left: 38%;
+    color: red;
+}
+
+.main .sy-left li .sy-jh {
+    position: absolute;
+    left: 45%;
+}
+
+.main .sy-right {
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.main .sy-right input {
+    width: 100%;
+    position: relative;
+}
+
+.main .sy-right .put-y {
+    position: absolute;
+    right:;
+}
+
+.main .sy-right button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.main .wq-row {
+    margin-top: 50px;
+}
+.main .wq-row .ul-one{
+    border: 1px solid #eee;
+    color: #888;
+    height: 52px;
+    background-color: #f8f8f8;
+}
+.main .wq-left {
+    padding-left: 40px;
+}
+
+.main .wq-left li {
+    display: inline-block;
+    line-height: 58px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.main .wq-left li:first-child{
+    text-align: left;
+}
+
+.main .wq-left .list-last {
+    width: 120px;
+    padding-right: 40px;
+    float: right;
+}
+.main .wq-left a{
+    display: inline-block;
+    width: 80px;
+    line-height: 30px;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #fdd1d3;
+    text-align: center;
+    height: 30px;
+    color: #aaa;
+}
+
+.footed{
+    background-color: #333;
+    margin-top: 50px;
+}
+.footed .fot-cont{
+    padding-top: 40px;
+}
+.footed .fot-mar{
+    margin-bottom: 35px;
+}
+.footed li{
+    text-align: center;
+    display: inline-block;
+    padding:0 25px;
+}
+.footed li:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+.footed li a{
+    color: #999;
+}
+.footed .fot-first{
+    color: #fff;
+    font-weight: bold;
+}
+.footed span{
+    color: #fff;
+    padding: 0 25px;
+}
+.footed .fot-sp{
+    font-size: 18px;
+    font-weight: bold;
+}
+.footed .fot-sa{
+    color: red;
+}
+.footed .fot-fed{
+    padding-bottom: 35px;
+}
+.footed .hoomxb{
+    text-align: center;
+    color: #999;
+    padding-bottom: 35px;
+}
+.footed li a:hover{
+    color: red;
 }
