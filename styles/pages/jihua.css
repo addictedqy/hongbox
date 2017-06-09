@@ -31,6 +31,7 @@
     left: 0;
     padding: 0 40px;
 
+
 }
 
 .main .main-list .ul-list {
@@ -39,10 +40,8 @@
     float: left;
     margin-right: 32px;
     text-align: center;
-    overflow: hidden;
     color: #fff;
     transition: all .3s;
-    cursor: pointer;
     position: relative;
     top: 0;
     box-shadow: none;
